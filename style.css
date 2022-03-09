@@ -1,0 +1,67 @@
+.section-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  /* height: 300px; */
+  height: auto;
+  margin: 1rem 1rem 1rem 0;
+  cursor: pointer;
+  /* user-select: none; */
+}
+
+.card:hover {
+  border-color: grey;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-button {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-btn {
+  display: flex;
+  font-size: 18px;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 0.75rem;
+  border-radius: 9px;
+  user-select: none;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.status-btn i {
+  user-select: none;
+  pointer-events: none;
+}
+.btn-success:hover {
+  border: 1px solid darkgreen !important;
+}
+
+.btn-success:focus {
+  box-shadow: none !important;
+}
+
+.btn-success:active {
+  box-shadow: none !important;
+}
+
+.btn-danger:hover {
+  border: 1px solid darkred !important;
+}
+
+.btn-danger:focus {
+  box-shadow: none !important;
+}
+
+.btn-danger:active {
+  box-shadow: none !important;
+}
